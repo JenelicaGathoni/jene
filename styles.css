@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: rgb(21, 231, 21);
+
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.one {
+border: 1px solid red;
+display: block;
+max-width: 100%;
+padding: 3em;
+margin: 1em;
+line-height: 2.5;
+margin-right: 5em;
+
+}
+.two {
+    border: 1px solid red;
+    display:block;
+    max-width:100%;
+    margin: 1em;
+    padding:3em ;
+    line-height:2.5 ;
+    margin-left: 5em;
+
+}
+article {
+    display: flex;
+    justify-content: center;
+    font-size:1.2rem ;
+}
+#versus {
+    display: flex;
+    place-content: center;
+}
