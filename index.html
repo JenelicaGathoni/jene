@@ -3,31 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Jenelica Gathoni">
-    <title>Table Tennis Counter</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Jenelle learns how to create a blckjack game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>The Real Scores</h1>
-    <article>
-    <div class="one">
-    <h2 id="count__one">0</h2>
    
-    <button id = "increment-button" onclick="increment()">Player1</button>
-    <button id="save-btn-one" onclick="manage()">Save</button>
-    <p id="save__el__one">previous entries-one: </p>
-    
+    <h1>BlackJack</h1>
+    <p id="message-el">Want to play a round ?</p>
+    <p id="cards-el">Cards</p>
+    <p id="sum-el">Sum</p>
+    <button id="start-button" onclick="startGame ()">Start Game</button><br>
+    <button id="new-card-button" onclick="newCard ()">New Card</button><br>
+   <p id="player-el"></p>
 
-</div>
-<p><span id="versus">versus</span></p>
-<div class="two">
-    <h2 id="count__two">0</h2>
-    <button id = add-button onclick="add()">Player2</button>
-    <button id="save-btn-two" onclick="save()">Save</button>
-    <p id="save__el__two">Previous entries-two: </p>
-    
-</div>
-</article>
     <script src="index.js"></script>
     
 </body>
